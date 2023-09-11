@@ -423,6 +423,10 @@ tTKMorseSmaleComplex1_1Display.SetScalarBarVisibility(renderView3, True)
 SetActiveSource(None)
 # ----------------------------------------------------------------
 
+if __name__ == '__main__':
+    # generate extracts
+    SaveExtracts(ExtractsOutputDirectory='extracts')
+
 import pandas as pd
 import numpy as np
 
@@ -469,10 +473,3 @@ print(result)
 
 data['AscendingManifold'] = result['AscendingManifold']
 data['MorseSmaleManifold'] = result['MorseSmaleManifold']
-
-data.to_csv(r"C:\Users\amohammed1\Downloads\morse_output_python.csv")
-print("Successfully Created the csv files !!! ")
-
-if __name__ == '__main__':
-    # generate extracts
-    SaveExtracts(ExtractsOutputDirectory='extracts')
