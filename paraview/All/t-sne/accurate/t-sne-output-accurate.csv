@@ -1,4 +1,4 @@
-Row ID,Battery Life,Beach Name,UMAP-0,UMAP-1,Measurement Timestamp,Turbidity,Water Temperature,Wave Height,Wave Period
+Row ID,Battery Life,Beach Name,TSNE-0,TSNE-1,Measurement Timestamp,Turbidity,Water Temperature,Wave Height,Wave Period
 0,-2.28016,2,-53.0555,-13.6314,1377849600,-0.111816,0.231392,-1.09145,-0.568405
 1,-2.28016,4,-53.0555,-13.6315,1377990000,-0.0360778,0.585168,0.655646,0.0764631
 2,-2.28016,3,-53.0555,-13.6314,1378177200,0.0113807,0.703093,0.771348,2.01107
